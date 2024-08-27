@@ -1,0 +1,301 @@
+
+/* icon design  */
+.c_icon a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+    color: black;
+}
+.c_icon{
+    position: fixed;
+    left: 30px;
+    top: 30%;
+    transform: translate(-30%);
+    background-color: whitesmoke;
+    border-radius: 50px;
+    box-shadow: 2px 2px 40px  rgb(51, 51, 51);
+}
+.c_icon a:hover .fa-facebook{
+    color: blue;
+}
+.c_icon a .fa-instagram:hover{
+    background-image: linear-gradient(#f9ca24,#e056fd);
+    border-radius: 50%;
+    
+}
+.c_icon a:hover .fa-youtube{
+    color: red;
+}
+.c_icon a:hover .fa-twitter{
+    color: rgb(55, 169, 214);
+}
+@media(max-width: 767px) {
+  
+   .c_icon{
+    display: none;
+   }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .c_icon{
+        display: none;
+       }
+}  
+/* icon design  */
+
+
+/* mbl icon start  */
+.mbl_icon .fa-facebook{
+    color: blue;
+}
+.mbl_icon .fa-instagram{
+    background-image: linear-gradient(#f9ca24,#e056fd);
+    border-radius: 50%;
+}
+.mbl_icon .fa-youtube{
+    color: red;
+}
+.mbl_icon .fa-twitter{
+    color: rgb(55, 169, 214);
+}
+#mblIcon{
+    background-color: silver;
+}
+@media (min-width: 1281px) {
+    .mbl_icon{
+        display: none;
+    }  
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .mbl_icon{
+        display: none;
+    }  
+}
+/* mbl icon start  */
+
+
+/* nav bar start*/
+.navbar-brand img{
+    height: 68px;
+    
+}
+
+.msg_Box_img .fa-facebook-messenger{
+    height: 40px;
+    text-decoration: none;
+    color: gray;
+}
+.msg_Box_img .fa-facebook-messenger:hover{
+    color: #0687e9;;
+}
+
+.msg_Box_img{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    transform: translate(-20px);
+    
+}
+/* nav bar end*/
+
+/* main body  */
+.body_1 h1 span{
+    letter-spacing: 25px;
+}
+.body_img img{
+    height: 580px;
+}
+.shop_button{
+    width: 180px;
+}
+.shop_button:hover{
+    transition: all ease 1s;
+    border: none;
+    /* background-color: #0687e9; */
+    background-color: #22a6b3;
+}
+/* main body  */
+
+/* addvaticement section  */
+.Sellimg img{
+    height: 600px;
+    width: 100%;
+}
+.sell_img_c img{
+    height: 600px;
+}
+/* addvaticement section  */
+
+/* male section  */
+.men_pera h4{
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    text-decoration: underline ;
+    border-bottom: 20px;
+     
+}
+.men_pera h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(#fab1a0,#d63031,#fdcb6e);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.men_img img
+{
+    height: 350px;
+    width: 100%;
+}
+.men_img:hover{
+    cursor: pointer;
+}
+.buybtn{
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    bottom: -20px;
+    transform: translatex(-50%);
+    display: flex;
+    border-radius: 10%;
+    background-image: radial-gradient(#f0932b,#eb4d4b);
+    color: white;
+    display: none;
+    animation:fade 0.2s;
+}
+.btn_men:hover .buybtn{
+    display: flex;
+}
+/* male section  */
+
+
+
+/* female section  */
+.female_pera h4
+{
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    text-decoration: underline; 
+}
+.female_pera h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:linear-gradient(#c44569,#574b90);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.female_img img{
+    height: 350px;
+    width: 100%;
+}
+.female_img:hover{
+    cursor: pointer;
+}
+.female_btn:hover .buybtn{
+    display: flex;
+}
+
+/* female section  */
+
+/* carousel Start  */
+.f_item{
+   height: 70vh;
+   /* background: no-repeat cover scroll;
+   -webkit-background-origin: ; */
+}
+
+.f_img{
+    height: 80vh;
+    background: no-repeat cover scroll;
+    background-size: cover;
+}
+/* carousel end  */
+.collection_head
+{
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+}
+.card_text:hover{
+    transition: all ease 1s;
+    border: none;
+    /* background-color: #0687e9; */
+}
+.hole_card{
+    box-shadow: 2px 2px 30px;
+}
+.hole_card img{
+    background-size: cover;
+    border: none;
+    height: 250px;
+    
+}
+.hole_card:hover{
+    transition: 2s ease-in-out;
+    transform: scale(1.1);
+    background-image:linear-gradient(#c44569,#10ac84);
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+.collection_head h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:linear-gradient(#e84393,#e17055);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+/* footer section  */
+
+.contact{
+    color: slategrey;
+}
+.cusmotner_servi ul{
+    list-style-type: none;
+    
+}
+.cusmotner_servi a
+{
+    text-decoration: none;
+    color: slategrey;
+}
+
+.helps_list a{
+    text-decoration: none;
+    color: slategrey;
+}
+.helps_list li{
+    list-style-type: none;
+}
+.company img{
+    height: 150px;
+   
+}
+
+.all_footer{
+    background-color: rgb(2, 2, 44) !important;
+}
+.banks{
+    margin-right: 90px;
+}
+/* footer section  */
+
+
+
+
+@media(max-width: 767px) {
+    .msg_Box_img{
+        display: none;
+    }
+    
+}
+
+@media(max-width: 767px) {
+    .body_img img{
+        display: none;
+    }
+    
+}
